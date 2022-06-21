@@ -6,8 +6,8 @@ export default function Hero() {
             <div className=' grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-1  mx-16 '>
                 <div className=' flex justify-center text-white'>
                     <div className='' style={{ fontFamily: "Druk Wide Bold", marginTop:"10vw", }}>
-                        <p style={{ fontSize: "40px" }}>YA ESTÁ AQUÍ EL <br /> NUEVO TOKEN DE <br /> <span style={{ color: "#D6302A" }} > STADIOPLUS</span></p>
-                        <p style={{ fontSize: "16px", fontFamily: "Montserrat" }} >El token que revolucionará el modelo de monetización del <br /> mundo del deporte y los eSports gracias a los NFTs.</p>
+                        <p style={{ fontSize: "3vw" }}>YA ESTÁ AQUÍ EL <br /> NUEVO TOKEN DE <br /> <span style={{ color: "#D6302A" }} > STADIOPLUS</span></p>
+                        <p style={{ fontSize: "1.2vw", fontFamily: "Montserrat" }} >El token que revolucionará el modelo de monetización del <br /> mundo del deporte y los eSports gracias a los NFTs.</p>
                         <br />  
                         <a href="/" className='font-semibold' style={{
                             backgroundColor: '#D6302A',

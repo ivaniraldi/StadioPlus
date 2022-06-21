@@ -28,9 +28,9 @@ export default function Lanzamientos() {
         <div className='text-white mt-24'>
             <div className='  ' style={{marginLeft:"6vw", marginRight:"6vw"}}>
                 <div className=''>
-                    <h3 style={{ fontFamily: "Montserrat", fontSize: "16px" }}>DESCUBRE NUESTROS</h3>
+                    <h3 style={{ fontFamily: "Montserrat", fontSize: "1.3vw" }}>DESCUBRE NUESTROS</h3>
                     <h3 style={{ fontFamily: "Druk Wide Bold", 
-                    fontSize: "30px",
+                    fontSize: "2.4vw",
                  }}>NUEVOS LANZAMIENTOS</h3>
                 </div>
                 <div className='flex justify-center'>

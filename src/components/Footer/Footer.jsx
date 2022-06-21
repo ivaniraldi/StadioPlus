@@ -15,7 +15,7 @@ export default function Footer() {
                 </p>
                 <br />
 
-                <p className='text-gray-500'>YA ESTÁ AQUÍ EL NUEVO TOKEN DE STADIOPLUS</p>
+                <p className='text-gray-500 text-s'>YA ESTÁ AQUÍ EL NUEVO TOKEN DE STADIOPLUS</p>
                 <div className='flex justify-center'>
 
                 <div className='flex w-48 text-xl justify-around mt-10'>
