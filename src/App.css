@@ -1,0 +1,40 @@
+body{
+  background: linear-gradient(315deg, rgba(1,28,68,1) 0%, rgba(1,28,68,1) 45%, rgba(1,28,68,1) 77%, rgb(8, 49, 111) 100%);
+}
+
+/* DARKMODE */
+body.dark{
+  background: #171717;
+}
+.container{
+  color: #ffffff00;
+}
+#navBar{
+  background: none  ;
+}
+#navBar.dark{
+  background: linear-gradient(270deg, #0039FF 4.1%, #3C3C3C 29.85%, rgba(77, 77, 77, 0) 97.4%);
+}
+
+#banner{
+  background: none  ;
+}
+#banner.dark{
+  background: linear-gradient(270deg, #0039FF 4.1%, #3C3C3C 29.85%, rgba(77, 77, 77, 0) 97.4%);
+}
+
+#buttonDarkMode.dark{
+  display: none  ;
+}
+
+#buttonDarkMode{
+  display: flex  ;
+}
+
+#buttonLightMode{
+  display: none  ;
+}
+
+#buttonLightMode.dark{
+  display: flex  ;
+}
