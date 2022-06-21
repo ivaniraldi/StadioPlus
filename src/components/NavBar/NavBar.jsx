@@ -23,10 +23,10 @@ export default function NavBar() {
         <div className=''>
             <div id="NAVBAR" className={`flex  w-full justify-center`}>
 
-                <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-2  font-bold justify-around items-center text-gray-500 py-8' style={{
-                    width: '93%',
+                <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-2  font-bold justify-between items-center text-gray-500 py-8' style={{
+                    width: '95%',
                 }}>
-                    <div>
+                    <div className=''>
                         <div className='inline'>
                             <div className='grid sm:flex'>
                                 <div className='flex'>
@@ -34,10 +34,10 @@ export default function NavBar() {
                                     <a className='font-semibold text-white ml-3' style={{ fontSize: "26px" }}> StadioPlus</a>
 
                                 </div>
-                                <div className=' inline ml-10 mt-4 sm:mt-0' style={{width:"370px"}}>
+                                <div className=' inline mt-4 sm:mt-0' style={{width:"370px", marginLeft:"1.5vw"}}>
 
-                                    <div className='relative' style={{marginTop: '0.5vw',}}>
-                                        <input className='focus:outline-none' type="text" placeholder="BUSCA TU DROP AQUI" style={{
+                                    <div className='relative ' style={{marginTop: '0.5vw',}}>
+                                        <input className='focus:outline-none mr-16' type="text" placeholder="BUSCA TU DROP AQUI" style={{
                                             paddingRight: '1.8vw',
                                             fontWeight: 'bold',
                                             paddingLeft: '1.8vw',                                            
@@ -68,13 +68,14 @@ export default function NavBar() {
                     <div className=' w-full flex justify-between mt-6 md:mt-6 sm:mt-6 xl:mt-0' >
 
                         <div className='w-full flex justify-around mt-2'>
+                            
                             <a style={{ fontFamily: "Montserrat", }} href="/"><span className='hover:text-white'>MIS COLECCIONES</span> </a>
                             <a  style={{ fontFamily: "Montserrat", }} href="#"><span className='hover:text-white'>LOGIN</span></a>
                             <a onClick={changeMode} style={{ fontFamily: "Montserrat", }} href="#">
                                 <div className='flex justify-center'>
                                     <div className='py-3'></div>
-                                <img id='buttonDarkMode' className={`w-6 opacity-50 hover:opacity-100 `} style={{}} src="https://i.ibb.co/mH8tz2h/moon.png" alt="moon" border="0"/>
-                                <img id="buttonLightMode" className={`w-6 opacity-50 hover:opacity-100 `} style={{}} src="https://i.ibb.co/51gHtr9/sun.png" alt="moon" border="0"/>
+                                <img id='buttonDarkMode' className={`w-6 mx-2 opacity-50 hover:opacity-100 `} style={{}} src="https://i.ibb.co/mH8tz2h/moon.png" alt="moon" border="0"/>
+                                <img id="buttonLightMode" className={`w-6 mx-2 opacity-50 hover:opacity-100 `} style={{}} src="https://i.ibb.co/51gHtr9/sun.png" alt="moon" border="0"/>
                                 </div>
                             </a>
                         </div>
@@ -82,6 +83,7 @@ export default function NavBar() {
                             backgroundColor: '#D6302A',
                             paddingRight: '1.8vw',
                             paddingLeft: '1.8vw',
+                            height: '34px',
                             paddingTop: '5px',
                             paddingBottom: '5px',
                             alignItems: 'center',

@@ -19,45 +19,62 @@ export default function Home() {
   SwiperCore.use([Navigation, Autoplay, Pagination]);
   return (
     <div>
-      <NavBar />
-      <Swiper
-        id='swiper'
-        spaceBetween={0}
-        slidesPerView={1}
-        loop={true} >
-        <SwiperSlide key="1">
-          <Hero2 />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Hero />
-        </SwiperSlide>
-      </Swiper>
-      <Swiper
-        id='swiper'
-        spaceBetween={0}
-        slidesPerView={1}
-        loop={true} >
-        <SwiperSlide key="1">
-      <Lanzamientos />
-        </SwiperSlide>
-        <SwiperSlide>
-      <Lanzamientos2/>
-        </SwiperSlide>
-      </Swiper>
-      <Swiper
-        id='swiper'
-        spaceBetween={0}
-        slidesPerView={1}
-        loop={true}>
-        <SwiperSlide key="1">
-          <Banner />
-        </SwiperSlide>
-        <SwiperSlide>
+
+      <div className='hidden sm:contents'>
+
+        <NavBar />
+        <Swiper
+          id='swiper'
+          spaceBetween={0}
+          slidesPerView={1}
+          loop={true} >
+          <SwiperSlide key="1">
+            <Hero2 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Hero />
+          </SwiperSlide>
+        </Swiper>
+        <Swiper
+          id='swiper'
+          spaceBetween={0}
+          slidesPerView={1}
+          loop={true} >
+          <SwiperSlide key="1">
+            <Lanzamientos />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Lanzamientos2 />
+          </SwiperSlide>
+        </Swiper>
+        <Swiper
+          id='swiper'
+          spaceBetween={0}
+          slidesPerView={1}
+          loop={true}>
+          <SwiperSlide key="1">
+            <Banner />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Banner2 />
+          </SwiperSlide>
+        </Swiper>
+        <Sponsor />
+        <Footer />
+      </div>
+
+      <div className='contents sm:hidden'>
+       <NavBar />
+        <Hero/> 
+            <Lanzamientos2 />
+            <Banner />
           <Banner2 />
-        </SwiperSlide>
-      </Swiper>
-      <Sponsor />
-      <Footer />
+        <Sponsor />
+        <Footer />
+      </div>
+
+
+
     </div>
   )
 }
