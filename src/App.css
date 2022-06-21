@@ -38,3 +38,8 @@ body.dark{
 #buttonLightMode.dark{
   display: flex  ;
 }
+
+@font-face {
+  font-family: "Druk Wide Bold";
+  src: url(../Druk\ Wide\ Bold.ttf);
+}
